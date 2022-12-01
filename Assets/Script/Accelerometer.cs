@@ -52,5 +52,6 @@ public class Accelerometer : MonoBehaviour
         // Shake Detection
         if(deltaAcceleration.sqrMagnitude >= shakeDetectionThreshold)
             OnShake?.Invoke();   
+            Debug.Log("Shake!");
     }
 }
