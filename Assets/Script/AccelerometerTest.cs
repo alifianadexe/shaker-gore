@@ -22,7 +22,7 @@ public class AccelerometerTest : MonoBehaviour
     {
         if (timerIsRunning)
         {
-            if (timeRemaining > 0)
+            if (timeRemaining >= 0)
             {
                 timeRemaining -= Time.deltaTime;
                 DisplayTime(timeRemaining);
@@ -49,7 +49,9 @@ public class AccelerometerTest : MonoBehaviour
     }
 
     private void ActionToRunWhenShakingDevice(){
-        Debug.Log("Shake Too!");
+        if(timerIsRunning){
+            Debug.Log("Shake Too!");
+        }
     }
 
     private void ActionToRunWhenDoneFading(){
