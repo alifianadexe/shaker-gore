@@ -6,9 +6,12 @@ using UnityEngine;
 public class AccelerometerTest : MonoBehaviour
 {
     
+    
+
     public float timeRemaining = 10;
     public bool timerIsRunning = false;
     public Text timeText;
+    public int damageSaved = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +32,7 @@ public class AccelerometerTest : MonoBehaviour
             }
             else
             {
+
                 Debug.Log("Time has run out!");
                 timeRemaining = 0;
                 timerIsRunning = false;
@@ -48,9 +52,13 @@ public class AccelerometerTest : MonoBehaviour
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
+    private void saveShakeDamage(){
+        damageSaved += 1;
+    }
+
     private void ActionToRunWhenShakingDevice(){
         if(timerIsRunning){
-            Debug.Log("Shake Too!");
+            saveShakeDamage();   
         }
     }
 
