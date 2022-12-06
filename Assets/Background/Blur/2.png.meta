@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Images/1.png.meta
-guid: b95253f346169394ab2894ba4e9cdbbf
-========
-guid: a2a7107a14bde2c45bbd5c6b2921699e
->>>>>>>> 80afce3ca654ee8d4c49e4654fdb5427c9a431b3:Assets/Background/0.png.meta
+guid: 7f4a18839f7bd934892b3e699d9f7770
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
