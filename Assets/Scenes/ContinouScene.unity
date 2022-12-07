@@ -3215,7 +3215,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1086862150}
         m_TargetAssemblyTypeName: ToSelectStage, Assembly-CSharp
-        m_MethodName: PlayGame
+        m_MethodName: SelectStage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

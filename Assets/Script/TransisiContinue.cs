@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//untuk new game dan exit
+
 public class TransisiContinue : MonoBehaviour
 {
     public void PlayGame()
