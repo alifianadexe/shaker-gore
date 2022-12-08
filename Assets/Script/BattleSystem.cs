@@ -27,10 +27,10 @@ public class BattleSystem : MonoBehaviour
     void Start()
     {
         state = BattleState.START; 
-        SetupBattle();
+        StartCoroutine(SetupBattle());
     }
 
-    void SetupBattle(){
+    IEnumerator SetupBattle(){
         GameObject playerGO = Instantiate(playerPrefab, playerBattleStation);
         playerUnit = playerGO.GetComponent<Unit>();
 
@@ -41,6 +41,59 @@ public class BattleSystem : MonoBehaviour
 
         playerHUD.SetHUD(playerUnit);
         enemyHUD.SetHUD(enemyUnit);
+
+        yield return new WaitForSeconds(5f);
+
+        state = BattleState.PLAYERTURN;
+        PlayerTurn(playerUnit);
+    }
+
+    IEnumerator PlayerAttack(){
+
+        // Damage the enemy
+
+
+        bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
+        
+        enemyHUD.setHP(enemyUnit.currentHP);
+        dialogText.text = playerUnit.unitName + " Attack for " + playerUnit.damage + "!!";
+
+        yield return new WaitForSeconds(2f);
+
+        if(isDead){
+            state = BattleState.WON;
+            EndBattle();
+        }else{
+            state = BattleState.ENEMYTURN;
+            StartCoroutine(EnemyTurn());
+        }
+    }
+
+    IEnumerator EnemyTurn(){
+        dialogText.text = enemyUnit.unitName + " Attack You!!";
+
+        yield return new WaitForSeconds(1f);
+
+        playerUnit.TakeDamage(enemyUnit.damage);
+    }
+
+    void EndBattle(){
+        if(state == BattleState.WON){
+            dialogText.text = playerUnit.unitName + " Won The Battle!!";
+        }else if( state == BattleState.LOST){
+            dialogText.text = playerUnit.unitName + " LOSSERR!!";
+        }
+    }
+
+    void PlayerTurn(Unit playerUnit){
+        dialogText.text = playerUnit.unitName + " Time To Attack!!"; 
+    }
+
+    public void OnAttackButton(){
+        if(state != BattleState.PLAYERTURN)
+            return;
+        
+        StartCoroutine(PlayerAttack());
     }
 
 }

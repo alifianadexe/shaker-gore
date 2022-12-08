@@ -14,12 +14,12 @@ public class BattleHud : MonoBehaviour
         levelText.text = unit.unitLevel;
         
         RectTransform hpCurrent = hpSlider.GetComponent<RectTransform>();
-        hpCurrent.sizeDelta = new Vector2 (hpCurrent.sizeDelta.x, unit.maxHP);
+        hpCurrent.sizeDelta = new Vector2(317, 18);
 ;
     } 
 
     public void setHP(int currentHP){
         RectTransform hpCurrent = hpSlider.GetComponent<RectTransform>();
-        hpCurrent.sizeDelta = new Vector2 (hpCurrent.sizeDelta.x, currentHP);
+        hpCurrent.sizeDelta = new Vector2(currentHP, 18);
     }
 }
