@@ -20,6 +20,9 @@ public class BattleSystem : MonoBehaviour
     Unit playerUnit;
     Unit enemyUnit;
 
+    public BattleHud playerHUD;
+    public BattleHud enemyHUD;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +38,9 @@ public class BattleSystem : MonoBehaviour
         enemyUnit = enemyGO.GetComponent<Unit>();
 
         dialogText.text = playerUnit.unitName + " Versus " + enemyUnit.unitName;
+
+        playerHUD.SetHUD(playerUnit);
+        enemyHUD.SetHUD(enemyUnit);
     }
 
 }
