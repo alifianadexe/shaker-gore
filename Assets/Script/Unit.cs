@@ -21,4 +21,14 @@ public class Unit : MonoBehaviour
             return false;
         }
     }
+
+    public bool TakeHeal(int heal){
+        currentHP += heal;
+        
+        if(currentHP > 317){
+            currentHP = 317;
+        }
+        
+        return true;
+    }
 }
