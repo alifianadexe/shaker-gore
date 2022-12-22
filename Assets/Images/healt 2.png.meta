@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c4f93e9d855e482438db9cf87141fbd0
+guid: 7893cb4f9ec56004fb9b0f71e88d84fe
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -129,12 +129,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HealthBar DARK_0
+      name: healt 2_0
       rect:
         serializedVersion: 2
-        x: 19
+        x: 20
         y: 147
-        width: 57
+        width: 61
         height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -143,19 +143,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0f4d785792f05a47a5052826c18f97b
-      internalID: -1492755893
+      spriteID: 1b275e541871d7a42b6765e05ec17c6f
+      internalID: -1993664893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HealthBar DARK_1
+      name: healt 2_1
       rect:
         serializedVersion: 2
-        x: 23
+        x: 78
         y: 150
-        width: 58
+        width: 4
         height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b163385a704b16f43a98d2e4f2fd1065
-      internalID: 1068791344
+      spriteID: 3fb87c9f6959283438db4d36ef15cf87
+      internalID: -819290616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HealthBar DARK_2
+      name: healt 2_2
       rect:
         serializedVersion: 2
-        x: 18
-        y: 132
-        width: 66
-        height: 12
+        x: 19
+        y: 134
+        width: 64
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,18 +185,60 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48e78f70b54ce414ca5fe12163eeb472
-      internalID: -867289483
+      spriteID: 8a0024b7806bfba46a5bb4dc4c75de3d
+      internalID: -615609302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HealthBar DARK_3
+      name: healt 2_3
       rect:
         serializedVersion: 2
-        x: 9
-        y: 100
+        x: 16
+        y: 106
+        width: 59
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fbab20fb39b1b46a181cf95daea973
+      internalID: -259671435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healt 2_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 119
+        width: 56
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a20708077646754c82fb03ca0bd7349
+      internalID: -889695189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healt 2_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 71
         width: 76
         height: 20
       alignment: 0
@@ -206,59 +248,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3519a7cef5ff7ac49a8ebc0eeb0e2d91
-      internalID: 1932667859
+      spriteID: 9384a75565a21464da32ae652bb133fd
+      internalID: -1635167808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HealthBar DARK_4
+      name: healt 2_6
       rect:
         serializedVersion: 2
-        x: 28
-        y: 118
-        width: 56
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27409fff253c44c41a1491aaf43406cb
-      internalID: -2038308214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthBar DARK_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 66
-        width: 101
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e40d0df6cd76f104abac83453da01946
-      internalID: 1525664619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthBar DARK_6
-      rect:
-        serializedVersion: 2
-        x: 28
+        x: 17
         y: 90
         width: 56
         height: 4
@@ -269,17 +269,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 176d5c096afd1b544862499ca38ebea5
-      internalID: -1472350299
+      spriteID: f1013bd7970184141ba3ac0074d86eaf
+      internalID: 1021292656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HealthBar DARK_7
+      name: healt 2_7
       rect:
         serializedVersion: 2
-        x: 18
+        x: 24
         y: 57
         width: 59
         height: 6
@@ -290,17 +290,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a082bc8b6502e314e891fdc48fea9ee8
-      internalID: 1258936890
+      spriteID: 22a9d16e99165c64194c5655f75d37b6
+      internalID: -1659917919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HealthBar DARK_8
+      name: healt 2_8
       rect:
         serializedVersion: 2
-        x: 17
+        x: 23
         y: 42
         width: 61
         height: 9
@@ -311,17 +311,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b35c5b49812d924a9d25b8b7be89b8c
-      internalID: 303132544
+      spriteID: 3d0b4980cf98d5343addf78f0894c6e5
+      internalID: -1632105988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HealthBar DARK_9
+      name: healt 2_9
       rect:
         serializedVersion: 2
-        x: 18
+        x: 24
         y: 26
         width: 59
         height: 6
@@ -332,20 +332,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a69df45e0dfc9c6439fe76cbf42cc7b2
-      internalID: 265778186
+      spriteID: 3467659eeae71064eb34b3975347d0c5
+      internalID: 1369586362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HealthBar DARK_10
+      name: healt 2_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 101
-        height: 20
+        x: 23
+        y: 11
+        width: 61
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,8 +353,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ec37f272b7048c43bfd54870fad3ec7
-      internalID: -1645013116
+      spriteID: c995885543e0d7c4b985cd613a402ff3
+      internalID: -1683145948
       vertices: []
       indices: 
       edges: []
@@ -370,17 +370,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HealthBar DARK_6: -1472350299
-      HealthBar DARK_0: -1492755893
-      HealthBar DARK_4: -2038308214
-      HealthBar DARK_3: 1932667859
-      HealthBar DARK_5: 1525664619
-      HealthBar DARK_7: 1258936890
-      HealthBar DARK_8: 303132544
-      HealthBar DARK_2: -867289483
-      HealthBar DARK_10: -1645013116
-      HealthBar DARK_1: 1068791344
-      HealthBar DARK_9: 265778186
+      healt 2_0: -1993664893
+      healt 2_1: -819290616
+      healt 2_2: -615609302
+      healt 2_3: -259671435
+      healt 2_5: -1635167808
+      healt 2_7: -1659917919
+      healt 2_4: -889695189
+      healt 2_8: -1632105988
+      healt 2_9: 1369586362
+      healt 2_6: 1021292656
+      healt 2_10: -1683145948
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
