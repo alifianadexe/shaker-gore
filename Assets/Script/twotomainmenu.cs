@@ -7,6 +7,6 @@ public class twotomainmenu : MonoBehaviour
 {
     public void twomainmenu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 6);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
     }
 }

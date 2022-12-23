@@ -9,6 +9,6 @@ public class ToSelectStage : MonoBehaviour
 {
     public void SelectStage()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
     }
 }
