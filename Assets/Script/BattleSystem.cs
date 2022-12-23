@@ -9,7 +9,8 @@ public class BattleSystem : MonoBehaviour
 
     public GameObject playerPrefab;
     public GameObject enemyPrefab;
-
+    public GameObject Win;
+    public GameObject Lose;
 
     public Transform playerBattleStation;
     public Transform enemyBattleStation;
@@ -25,7 +26,7 @@ public class BattleSystem : MonoBehaviour
     public BattleState state;
 
     public Text dialogText;
-
+    
     Unit playerUnit;
     Unit enemyUnit;
 
@@ -42,6 +43,7 @@ public class BattleSystem : MonoBehaviour
         state = BattleState.START; 
         Accelerometer.Instance.OnShake += ActionToRunWhenShakingDevice;
         StartCoroutine(SetupBattle());
+
     
     }
 
@@ -97,6 +99,7 @@ public class BattleSystem : MonoBehaviour
             state = BattleState.ENEMYTURN;
             StartCoroutine(EnemyTurn());
         }
+
     }
 
     IEnumerator PlayerDeffend(){
@@ -151,9 +154,11 @@ public class BattleSystem : MonoBehaviour
 
     void EndBattle(){
         if(state == BattleState.WON){
-            dialogText.text = playerUnit.unitName + " Won The Battle!!";
+            dialogText.text = "You Won The Battle!!";
+            Win.SetActive(true);
         }else if( state == BattleState.LOST){
-            dialogText.text = playerUnit.unitName + " LOSSERR!!";
+            dialogText.text = "You LOSSERR!!";
+            Lose.SetActive(true);
         }
     }
     
