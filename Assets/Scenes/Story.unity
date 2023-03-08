@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.9699707, y: -0.69999695}
-  m_SizeDelta: {x: 62.43, y: 49.66}
+  m_AnchoredPosition: {x: -0.011230469, y: -0.000015258789}
+  m_SizeDelta: {x: 0.022583, y: 0.000030518}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &30209990
 MonoBehaviour:
@@ -235,8 +235,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00028229, y: 0.00050163}
-  m_SizeDelta: {x: 1106.3, y: 500.08}
+  m_AnchoredPosition: {x: 0.00067079, y: -0.0090008}
+  m_SizeDelta: {x: 900.4, y: 393.46}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &65244387
 MonoBehaviour:
@@ -252,10 +252,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1681285501}
   lines:
-  - Di kerajaan Ambysis yang dipimpin oleh seorang raja yang sudah tua yang di panggil
-    Kakek Basin. Kotanya sangat damai dan tentram
-  - Namun kerajaannya hanyalah sebuah simbolis dari kerajaan tersebut dimana urusan
-    pemerintahan di pegang penuh oleh Pemerintahan yang dinamakan Oshen
+  - DI sebuah kerajaan yang sangat damain dan tentram
+  - Semuanya berubah ketika negeri seberang memulai penyerangan ke kerajaan yang
+    ada di dekatnya
+  - Negeri Sembilang memulai invasinya kebeberapa kerjaan terdekatnya, termasuk ke
+    kerajaan Ambysis kemudia sang Raja langsung memrintahkan untuk melindungi kerajaan
+    dan semua rakyatnya
   textSpeed: 0.1
 --- !u!1 &69840752
 GameObject:
@@ -292,8 +294,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 25.52, y: -147.17}
-  m_SizeDelta: {x: 976.29, y: 205.74}
+  m_AnchoredPosition: {x: 1.1125, y: -69.54}
+  m_SizeDelta: {x: 904.01, y: 182.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &69840754
 MonoBehaviour:
@@ -1839,7 +1841,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 516.1724, y: -235.04}
+  m_AnchoredPosition: {x: 388, y: -167}
   m_SizeDelta: {x: 73.9602, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &497524218
@@ -2347,9 +2349,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 516.1724, y: -235.04}
+  m_AnchoredPosition: {x: 390, y: -168}
   m_SizeDelta: {x: 73.9602, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.49999955, y: 0.5}
 --- !u!114 &678994867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2530,8 +2532,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3.669983, y: 0}
-  m_SizeDelta: {x: 63.81, y: 48.27}
+  m_AnchoredPosition: {x: 0, y: -0.6692505}
+  m_SizeDelta: {x: 0, y: 1.34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &764254475
 MonoBehaviour:
@@ -3079,7 +3081,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1022440518
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3100,8 +3102,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.9730835, y: 0.000015258789}
-  m_SizeDelta: {x: 1106.331, y: 500.084}
+  m_AnchoredPosition: {x: 0.00052165985, y: -0.00050545}
+  m_SizeDelta: {x: 946.8, y: 390.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1063230160
 GameObject:
@@ -3278,7 +3280,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1093277408
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3299,8 +3301,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.973, y: -0.0000019073}
-  m_SizeDelta: {x: 1106.331, y: 500.084}
+  m_AnchoredPosition: {x: 0.000037193, y: -0.00050545}
+  m_SizeDelta: {x: 946.8, y: 390.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1097655954
 GameObject:
@@ -4729,8 +4731,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 42.68, y: -163.07718}
-  m_SizeDelta: {x: 820.87, y: 122.17}
+  m_AnchoredPosition: {x: 1.1125, y: -69.54}
+  m_SizeDelta: {x: 768.64, y: 95.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1681285501
 MonoBehaviour:
@@ -4885,8 +4887,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 43.43, y: -163.07718}
-  m_SizeDelta: {x: 816.37, y: 122.17}
+  m_AnchoredPosition: {x: 18.42, y: -108.74}
+  m_SizeDelta: {x: 744.45, y: 111.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1708858237
 MonoBehaviour:
@@ -5081,8 +5083,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00028229, y: 0.00050163}
-  m_SizeDelta: {x: 1106.3, y: 500.08}
+  m_AnchoredPosition: {x: -0.012478, y: 0}
+  m_SizeDelta: {x: 900.42, y: 390.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1816437976
 MonoBehaviour:
@@ -5098,9 +5100,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1708858237}
   lines:
-  - Disinilah aku lahir dan tinggal dari kecil bersama keluargaku, ibuku adalah orang
-    asli negeri ini, sedangkan ayahku adalah seorang pendatang dari negeri yang kini
-    sudah di akuisisi oleh kerajaan lain
+  - Pasukan spesial kerajaanpun di kerahkan untuk menggagalkan serangan negeri sembilan
+  - Aaron namashio yang menjadi panglima muda pun turun tangan untuk menumpas semua
+    musuh dari Negeri Sembilan
   textSpeed: 0.1
 --- !u!1 &1866969921
 GameObject:
@@ -5620,8 +5622,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27.02, y: -147.17}
-  m_SizeDelta: {x: 973.28, y: 205.74}
+  m_AnchoredPosition: {x: -0.0000042253, y: -70}
+  m_SizeDelta: {x: 900.42, y: 189.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1995446988
 MonoBehaviour:
